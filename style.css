@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/strona\ tytułowa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 20px 0 30px 0;
+}
+
+header p:first-child {
+    font-size: 8rem;
+}
+
+@media (max-width: 575px) {
+    header p:first-child {
+        font-size: 6rem;
+    }
+}
+
+header p:nth-child(2) {
+    font-size: 4rem;
+}
+
+@media (max-width: 575px) {
+    header p:nth-child(2) {
+        font-size: 2rem;
+    }
+}
+
+header p:last-child {
+    font-size: 6rem;
+}
+
+@media (max-width: 575px) {
+    header p:last-child {
+        font-size: 4rem;
+    }
+}
+
+header p {
+    margin-block: 0;
+    margin: 0;
+    line-height: 110%;
+    text-align: center;
+    color: white;
+}
+
+
+
+main {
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+figure div {
+    overflow: hidden;
+}
+
+figure img {
+    width: 100%;
+    transition: all 6s ease-out;
+}
+
+figure img:hover {
+    transform: scale(1.4);
+}
+
+figcaption {
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* position: relative; */
+    /* transition: all 0s ease-out; */
+}
+
+/* main a:hover+figcaption {
+    background-color: rgba(0, 0, 0, 1);
+} */
