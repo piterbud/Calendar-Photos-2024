@@ -1,6 +1,4 @@
-# Page title
-
-Calendar Photos 2024
+# Page title: Calendar Photos 2024
 
 ## Page description
 
